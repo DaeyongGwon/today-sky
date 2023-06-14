@@ -1,20 +1,13 @@
 @import url("../index.css");
 @import url("../calendar.css");
 
-body {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(160, 187, 237);
-  margin: 0;
-}
-
 main {
   min-width: 300px;
   width: 100%;
   max-width: 550px;
 }
 
-main > header {
+main>header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +18,7 @@ main > header {
   margin-bottom: 0.5em;
 }
 
-main > header .logo {
+main>header .logo {
   height: 5svh;
   aspect-ratio: 2 / 1;
 }
@@ -40,7 +33,7 @@ main > header .logo {
 #diary-or-todo div.now {
   padding: 0.5em 1em;
   border-radius: 1em;
-  background-color: rgb(160, 187, 237);
+  background-color: var(--bg-color);
 }
 
 article.todos {
